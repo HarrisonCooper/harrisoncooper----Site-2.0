@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <!-- JS -->
+  <script src="{{ site.baseurl }}/javascript/jquery-3.3.1.min.js"></script>
+  <script src="{{ site.baseurl }}/javascript/masonry.pkgd.min.js"></script>
+  <script src="{{ site.baseurl }}/javascript/imagesloaded.pkgd.min.js"></script>
+
+  <!--css-->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/skeleton.css">
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

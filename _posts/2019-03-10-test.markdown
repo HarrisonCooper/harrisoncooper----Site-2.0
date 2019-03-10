@@ -1,0 +1,7 @@
+---
+layout: post
+title: Test
+permalink: test
+image: /images/tony.jpg
+tags: [HTML, Java]
+---
