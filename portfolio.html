@@ -29,31 +29,3 @@ $container.imagesLoaded().progress( function() {
 })
 
 </script>
-
-
-<!-- <script>
-$( document ).ready(function() {
-	var $container = $('.cards');
-	// initialize Masonry after all images have loaded
-	$container.imagesLoaded( function() {
-	     $container.masonry();
-	});
-	$("img.lazy").lazyload({
-	    effect: 'fadeIn',
-	    effectspeed: 1000,
-	    threshold: 200
-	});
-	$('img.lazy').load(function() {
-	    masonry_update();
-	});
-	function masonry_update() {
-	    $container.imagesLoaded(function(){
-	        $container.masonry({
-	            itemSelector: '.card',　
-	            isFitWidth: false,　
-	            columnWidth: 300
-	        });
-	    });
-	}
-});
-</script> -->
