@@ -10,7 +10,7 @@ Devpost can be found [here](https://devpost.com/software/dnamazing)
 Code can be found on GitHub [here](https://github.com/HarrisonCooper/DNAmazing)
 
 # Awards
-First Prize
+Winner: First Prize
 
 # The Problem
 
