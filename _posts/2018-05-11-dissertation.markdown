@@ -15,16 +15,16 @@ Code can be found on GitHub [here](https://github.com/HarrisonCooper/dissertatio
 ![alt text](/images/dissertation/bloodvessel.png "Blood Vessel Wall")
 * Over time cells turn Quiescent (G0) then Senescent
 ![alt text](images/dissertation/cellcycle.png "Endothelial Cell Cycle")
-...* These cells act as barriers to migration
+    * These cells act as barriers to migration
 * As we age, the rate of healing is reduced
-...* But by how much?
+    * But by how much?
 * Delayed healing leads to thrombosis
 
 # Methods
 * An Agent-based Model has been implemented in Python
-...* Dynamic system of interacting cells
-...* Allows individual representation of the three agents
-...* Allows graphical output of behaviours
+    * Dynamic system of interacting cells
+    * Allows individual representation of the three agents
+    * Allows graphical output of behaviours
 ![alt text](/images/dissertation/confluence.png "Confluence showing 3 types of cells")
 * Testing with unit tests, sensitivity analysis, and face validation
 
@@ -36,9 +36,9 @@ Code can be found on GitHub [here](https://github.com/HarrisonCooper/dissertatio
 
 # Conclusion
 * As we age, wound healing rate decreases
-...* Little change after 41 years of age
-...* This increases the change of blood clot formation
+    * Little change after 41 years of age
+    * This increases the change of blood clot formation
 * Further work:
-...* Implement cell adhesion
-...* Decrease time complexity
-...* In vitro validation
+    * Implement cell adhesion
+    * Decrease time complexity
+    * In vitro validation
